@@ -396,7 +396,8 @@ span.navbar-toggler-icon img {
   border: none;
   border-radius: 10px;
   font-size: 25px;
-  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-family: "Open Sans", sans-serif !important;
   font-weight: 700;
   padding: 5px 20px;
   width: fit-content;
@@ -747,6 +748,8 @@ span.navbar-toggler-icon img {
   z-index: 11;
   position: relative;
   font-size: 14px;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 400;
 }
 
 .current-value .kostenlos .trusted-shops {
@@ -880,6 +883,35 @@ span.navbar-toggler-icon img {
 
   .triangle-down {
     display: block;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 370px) {
+  .current-metal-values .btn-values {
+    text-align: center;
+  }
+  .kostenlos h5 {
+    font-size: 16px;
+  }
+  .current-value .kostenlos .sold_out {
+    right: -68px;
+    font-size: 14px;
+  }
+  .current-value .kostenlos .btn-bg {
+    font-size: 14px;
+  }
+  .current-value .kostenlos .garantierte {
+    font-size: 12px;
+  }
+  .trusted-shops img {
+    width: 80px;
+    height: 80px;
+  }
+  .current-value .kostenlos .star-clr {
+    font-size: 12px;
+  }
+  .current-value .kostenlos p {
+    font-size: 8px;
+    line-height: 12px;
   }
 }
 
