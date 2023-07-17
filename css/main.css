@@ -926,6 +926,26 @@ span.navbar-toggler-icon img {
   .select-line {
     right: 80px;
   }
+  .current-value .kostenlos .btn-bg {
+    font-size: 14px;
+  }
+  .current-value .kostenlos .sold_out {
+    width: 180px;
+  }
+  .Kostenlos-heading {
+    font-size: 18px;
+  }
+  .current-value .kostenlos .garantierte {
+    font-size: 12px;
+  }
+  .trusted-shops img {
+    width: 70px;
+    height: 70px;
+  }
+  .trusted-shops h5 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
 }
 @media screen and (min-width: 801px) and (max-width: 992px) {
   .header-top-wrapper {
