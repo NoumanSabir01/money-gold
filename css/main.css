@@ -24,7 +24,6 @@ body {
 :focus {
   outline: none;
   border: none;
-  box-shadow: none !important;
 }
 .container {
   max-width: 1140px !important;
@@ -67,7 +66,7 @@ h2 {
   }
   .navbar-brand img {
     max-width: unset !important;
-    width: 125px;
+    width: 130px;
     height: 22px;
   }
   .header-top-wrapper .header-imgs img {
@@ -128,7 +127,7 @@ h2 {
 header nav .collapse ul li a {
   color: #fff;
   font-family: "Open Sans", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
 }
 .hr-divider {
@@ -1032,26 +1031,23 @@ span.navbar-toggler-icon img {
     position: absolute;
     background-color: #3a393e;
     width: 300px;
+    height: 250px;
+    overflow-y: auto;
     z-index: 999;
     top: 100%;
     right: 0;
   }
-
   .navbar-expand-lg .navbar-collapse li.nav-item a.nav-link {
     color: #ffffff;
     padding: 10px 15px;
     display: block;
   }
-
-  .navbar-nav {
-    overflow-y: auto;
-    height: 225px;
+  .nav-item {
+    height: 100%;
   }
-
   .navbar-expand-lg .navbar-collapse li.nav-item a.nav-link.active {
     background-color: #d9c26c;
   }
-
   .navbar-toggler {
     display: block;
     position: absolute;
