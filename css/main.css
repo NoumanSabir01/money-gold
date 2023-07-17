@@ -68,6 +68,10 @@ h2 {
   .navbar-brand img {
     max-width: unset !important;
     width: 125px;
+    height: 22px;
+  }
+  .header-top-wrapper .header-imgs img {
+    width: 50px;
   }
 }
 /* header css */
@@ -138,6 +142,7 @@ span.navbar-toggler-icon {
   font-size: 20px;
   display: flex;
   margin-top: 14px;
+  color: rgb(61, 61, 62) !important;
 }
 
 span.navbar-toggler-icon img {
@@ -715,10 +720,11 @@ span.navbar-toggler-icon img {
   display: block;
   text-align: center;
   text-decoration: none;
-  letter-spacing: 0.06em;
+  letter-spacing: inherit;
   background-color: #2a83d1;
   padding: 1px;
-  font: bold 16px Arial, Sans-Serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
   width: 200px;
   -webkit-transform: rotate(48deg) scale(0.75, 1);
   transform: rotate(48deg) scale(0.75, 1);
@@ -876,16 +882,12 @@ span.navbar-toggler-icon img {
   border-top: 25px solid #eecd56;
 }
 
-@media screen and (max-width: 992px) {
-  .triangle-right {
-    display: none;
-  }
-
-  .triangle-down {
-    display: block;
-  }
-}
 @media screen and (min-width: 280px) and (max-width: 370px) {
+  .navbar-brand img {
+    max-width: unset !important;
+    width: 105px;
+    height: 20px;
+  }
   .current-metal-values .btn-values {
     text-align: center;
   }
@@ -914,15 +916,34 @@ span.navbar-toggler-icon img {
     line-height: 12px;
   }
 }
-
+@media screen and (min-width: 993px) and (max-width: 1100px) {
+  .value-calculate button {
+    width: 230px;
+  }
+  .value-calculate select {
+    width: 250px;
+  }
+  .select-line {
+    right: 80px;
+  }
+}
 @media screen and (min-width: 801px) and (max-width: 992px) {
   .header-top-wrapper {
     padding-right: 0px !important;
   }
-  .navbar-toggler {
-    width: 100%;
-    text-align: right;
+  .header-top-wrapper .navbar-brand img {
+    width: 200px;
   }
+  .header-top-wrapper .header-imgs img {
+    width: 55px;
+  }
+  .proven-expert-img {
+    width: 66px !important;
+  }
+  span.navbar-toggler-icon {
+    margin-right: 40px;
+  }
+
   .select-line {
     right: 13%;
   }
@@ -947,6 +968,18 @@ span.navbar-toggler-icon img {
   .header-top-wrapper {
     padding-right: 0px !important;
   }
+  .header-top-wrapper .navbar-brand img {
+    width: 200px;
+  }
+  span.navbar-toggler-icon {
+    margin-right: 40px;
+  }
+  .header-top-wrapper .header-imgs img {
+    width: 55px;
+  }
+  .proven-expert-img {
+    width: 66px !important;
+  }
   .select-line {
     position: absolute;
     right: 13%;
@@ -966,6 +999,58 @@ span.navbar-toggler-icon img {
   }
   .header-top-wrapper {
     padding-right: 25px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .gold-header {
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    position: absolute;
+    background-color: #3a393e;
+    width: 300px;
+    z-index: 999;
+    top: 100%;
+    right: 0;
+  }
+
+  .navbar-expand-lg .navbar-collapse li.nav-item a.nav-link {
+    color: #ffffff;
+    padding: 10px 15px;
+    display: block;
+  }
+
+  .navbar-nav {
+    overflow-y: auto;
+    height: 225px;
+  }
+
+  .navbar-expand-lg .navbar-collapse li.nav-item a.nav-link.active {
+    background-color: #d9c26c;
+  }
+
+  .navbar-toggler {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+  }
+
+  .triangle-right {
+    display: none;
+  }
+
+  .triangle-down {
+    display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  span.navbar-toggler-icon {
+    margin-right: 40px;
   }
 }
 
