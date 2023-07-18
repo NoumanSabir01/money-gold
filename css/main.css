@@ -724,15 +724,16 @@ span.navbar-toggler-icon img {
   text-decoration: none;
   letter-spacing: inherit;
   background-color: #2a83d1;
-  padding: 1px;
+  padding: unset;
+  font-size: 13px;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   width: 200px;
-  -webkit-transform: rotate(48deg) scale(0.75, 1);
-  transform: rotate(48deg) scale(0.75, 1);
+  -webkit-transform: rotate(48deg);
+  transform: rotate(48deg);
   position: absolute;
-  right: -62px;
-  top: 27px;
+  right: -70px;
+  top: 25px;
   text-transform: uppercase;
 }
 
