@@ -113,7 +113,6 @@ h2 {
 .active {
   color: #d9c26c;
   font-family: "Open Sans", sans-serif;
-  font-weight: 700;
 }
 
 .nav-item a {
@@ -1026,6 +1025,9 @@ span.navbar-toggler-icon img {
 }
 
 @media screen and (max-width: 992px) {
+  .header-top-wrapper {
+    padding-bottom: 0px !important;
+  }
   .gold-header {
     position: sticky;
     top: 0px;
@@ -1039,7 +1041,7 @@ span.navbar-toggler-icon img {
     overflow-y: auto;
     z-index: 999;
     top: 100%;
-    right: 0;
+    left: 0;
   }
   .navbar-expand-lg .navbar-collapse li.nav-item a.nav-link {
     color: #ffffff;
@@ -1060,6 +1062,16 @@ span.navbar-toggler-icon img {
   .nav-item.dropdown .dropdown-item {
     font-size: 14px;
     padding-left: 20px;
+  }
+  .mob-navigation {
+    background-color: #3b3b3d;
+    margin-top: 10px;
+  }
+  .mob-navigation ul {
+    list-style: none;
+    font-weight: 400 !important;
+    margin-bottom: 0px !important;
+    font-size: 14px;
   }
   .navbar-toggler {
     display: block;
@@ -1082,6 +1094,13 @@ span.navbar-toggler-icon img {
 @media screen and (max-width: 767px) {
   span.navbar-toggler-icon {
     margin-right: 40px;
+  }
+  .navbar-toggler {
+    display: block;
+    position: static;
+  }
+  .mob-navigation ul li .nav-link {
+    padding: 5px 1px !important;
   }
 }
 
