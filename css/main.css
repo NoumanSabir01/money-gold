@@ -1034,8 +1034,7 @@ span.navbar-toggler-icon img {
     position: absolute;
     background-color: #3a393e;
     width: 300px;
-    height: 250px;
-    max-height: 250px;
+    max-height: none;
     overflow-y: auto;
     z-index: 999;
     top: 100%;
@@ -1048,11 +1047,18 @@ span.navbar-toggler-icon img {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
   }
+  .navbar-expand-lg .navbar-collapse li.nav-item a:visited {
+    color: #ffffff;
+  }
   .nav-item {
     height: 100%;
   }
   .navbar-expand-lg .navbar-collapse li.nav-item a.nav-link.active {
     background-color: #d9c26c;
+  }
+  .nav-item.dropdown .dropdown-item {
+    font-size: 14px;
+    padding-left: 20px;
   }
   .navbar-toggler {
     display: block;
