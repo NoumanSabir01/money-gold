@@ -62,7 +62,7 @@ h2 {
     max-width: 425px !important;
   }
   .header-top-wrapper {
-    padding-right: 14px;
+    padding-right: 30px;
   }
   .navbar-brand img {
     max-width: unset !important;
@@ -1048,7 +1048,7 @@ span.navbar-toggler-icon img {
     padding: 10px 15px;
     display: block;
     font-family: "Open Sans", sans-serif;
-    font-weight: 400;
+    font-weight: bold;
   }
   .navbar-expand-lg .navbar-collapse li.nav-item a:visited {
     color: #ffffff;
