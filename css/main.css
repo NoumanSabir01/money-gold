@@ -62,7 +62,7 @@ h2 {
     max-width: 425px !important;
   }
   .header-top-wrapper {
-    padding-right: 30px;
+    padding-right: 14px;
   }
   .navbar-brand img {
     max-width: unset !important;
@@ -111,7 +111,7 @@ h2 {
 }
 
 .active {
-  color: #d9c26c;
+  color: #d9c26c !important;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -127,7 +127,7 @@ h2 {
 header nav .collapse ul li a {
   color: #fff;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-weight: bold;
 }
 .hr-divider {
   width: 1px;
@@ -1058,6 +1058,7 @@ span.navbar-toggler-icon img {
   }
   .navbar-expand-lg .navbar-collapse li.nav-item a.nav-link.active {
     background-color: #d9c26c;
+    color: white !important;
   }
   .nav-item.dropdown .dropdown-item {
     font-size: 14px;
@@ -1069,9 +1070,10 @@ span.navbar-toggler-icon img {
   }
   .mob-navigation ul {
     list-style: none;
-    font-weight: 400 !important;
+    font-weight: bold !important;
     margin-bottom: 0px !important;
     font-size: 14px;
+    justify-content: space-between !important;
   }
   .navbar-toggler {
     display: block;
@@ -1101,6 +1103,7 @@ span.navbar-toggler-icon img {
   }
   .mob-navigation ul li .nav-link {
     padding: 5px 1px !important;
+    font-size: 13px;
   }
 }
 
